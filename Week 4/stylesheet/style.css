@@ -1,0 +1,56 @@
+
+/*this is a comment*/
+
+h1{
+  font-size: 64px;
+  font-family: sans-serif;
+  color: #45FFDE;
+}
+
+h2{
+  font-size: 55px;
+  font-family: sans-serif;
+  color: white;
+}
+
+h3{
+  font-size: 50px;
+  font-family: sans-serif;
+  color: #A2FF2C;
+}
+
+h4{
+  font-size: 45px;
+  font-family: serif;
+  color: #A2FF2C;
+
+}
+
+h5{
+  font-size: 37px;
+  font-family: serif;
+  color: #00A3FF;
+}
+
+h6{
+  font-size: 25px;
+  font-family: serif;
+  color: white;
+}
+
+p{
+  font-size: 18px;
+  font-family: monospace;
+  color: white;
+}
+
+li{
+  font-size: 17px;
+  font-family: monospace;
+  color: white;
+}
+
+img{
+  width: 25vw;
+  margin: 20px;
+}
