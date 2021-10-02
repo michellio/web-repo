@@ -1,0 +1,79 @@
+body {
+  font-family: arial;
+  font-size: 6 vw;
+  font-weight: 100;
+  color: black;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+p {
+  color: pink;
+  font-size: 3vw;
+}
+
+#second{
+  font-weight: bold;
+  color: blue;
+}
+
+h1 {
+  border: solid rgb(100,50,50) 1px;
+  font-family: "Oxygen";
+  font-size: 7vw;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+
+}
+
+.grey{
+  color: rgb(100,100,100)
+}
+
+.background{
+  background-color: yellow;
+  margin: 0px;
+}
+
+p.background {
+  color: red;
+}
+
+span {
+  color: blue;
+  font-weight: bold
+}
+
+hr{
+  border:dashed rgb(255, 0, 0) 2px;
+}
+
+#two{
+  border: solid black 1px;
+  background-color: orange;
+
+}
+
+#hero{
+  width: 100vw;
+  margin:0px;
+  padding: 0px;
+  height: 47vh;
+  overflow:hidden;
+  position: relative;
+}
+
+/* #header{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  z-index: 2;
+} */
