@@ -1,0 +1,147 @@
+
+/*this is a comment*/
+
+h1{
+  font-size: 9vw;
+  font-family: Sansation;
+  font-weight: lighter;
+  color: black;
+  /* Neon attempt */
+  text-shadow:
+    0 0 1px #fff,
+    0 0 1px #fff,
+    0 0 3px #fff,
+    0 0 5px #00FFF0,
+    0 0 5px #00FFF0,
+    0 0 7px #00FFF0,
+    0 0 7px #00FFF0,
+    0 0 7px #00FFF0;
+  margin: 1px;
+}
+
+h2{
+  font-size: 55px;
+  font-family: sans-serif;
+  color: white;
+}
+
+h3{
+  font-size: 50px;
+  font-family: sans-serif;
+  color: #A2FF2C;
+}
+
+h4{
+  font-size: 3vw;
+  font-family: Sansation;
+  font-weight: lighter;
+  color: black;
+  text-shadow:
+    0 0 1px #fff,
+    0 0 1px #fff,
+    0 0 3px #fff,
+    0 0 4px #A2FF2C,
+    0 0 4px #A2FF2C,
+    0 0 6px #A2FF2C,
+    0 0 6px #A2FF2C,
+    0 0 6px #A2FF2C;
+
+}
+
+h5{
+  font-size: 37px;
+  font-family: Sansation;
+  color: black;
+  text-shadow:
+    0 0 1px #fff,
+    0 0 1px #fff,
+    0 0 3px #fff,
+    0 0 4px #00A3FF,
+    0 0 4px #00A3FF,
+    0 0 6px #00A3FF,
+    0 0 6px #00A3FF,
+    0 0 6px #00A3FF;
+}
+
+h6{
+  font-size: 25px;
+  font-family: Sansation;
+  color: white;
+}
+
+p{
+  font-size: 2vw;
+  font-family: Sansation;
+  font-weight: lighter;
+  color: white;
+}
+
+li{
+  font-size: 2vw;
+  font-family: Sansation;
+  color: white;
+  padding: 5px;
+  margin: 2px;
+}
+
+hr{
+    border:groove #FBE9FF 2px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    shadow:
+      0 0 1px #fff,
+      0 0 1px #fff,
+      0 0 3px #fff,
+      0 0 6px #00FFF0,
+      0 0 6px #00FFF0,
+      0 0 8px #00FFF0,
+      0 0 7px #00FFF0,
+      0 0 8px #00FFF0;
+}
+
+span{
+  color: #00FFF0;
+  font-weight: bold;
+
+}
+
+a{
+  font-size: 2vw;
+  outline: none;
+  text-decoration: none;
+  font-family: Sansation;
+
+}
+
+a:link{
+  color: #D16FFF;
+  font-family: Sansation;
+}
+
+a:visited{
+  color: #8E27C2;
+}
+
+a:active{
+  color: yellow;
+}
+a:hover{
+  color:#FF72F1;
+  text-decoration: underline;
+  text-shadow:
+    0 0 1px #fff,
+    0 0 1px #fff,
+    0 0 1px #fff,
+    0 0 2px #FF72F1,
+    0 0 2px #FF72F1,
+    0 0 3px #FF72F1,
+    0 0 3px #FF72F1,
+    0 0 3px #FF72F1;
+
+
+}
+
+img{
+  width: 25vw;
+  margin: 20px;
+}
