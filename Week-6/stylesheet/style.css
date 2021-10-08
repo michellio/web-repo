@@ -1,0 +1,109 @@
+p{
+  color:#6F6866;
+  font-family:Merriweather;
+}
+
+
+
+h2{
+  font-family:Staatliches;
+  font-weight: lighter;
+  color: #253C78;
+  font-size: 2vw;
+}
+
+#hero{
+  width: 100vw;
+  height:70vh;
+  overflow: hidden;
+  margin:0px;
+  padding:0px;
+
+}
+
+#hero img{
+  min-height: 100%;
+  min-width: 80vw;
+
+  width: 100%;
+  height: auto;
+
+  position: relative;
+  overflow: hidden;
+  bottom: 420px;
+  padding:0px;
+  margin:0px;
+}
+
+#hero h1{
+  z-index: 1;
+  position: relative;
+  font-size: 5vw;
+  top: 30vh;
+  left: 40vw;
+  margin:0 0 0 1vw;
+  margin-top: 0vw;
+  padding: 0px;
+  color: White;
+  font-family: Staatliches;
+}
+
+#one, #two, #three{
+   margin-left: 1vw;
+   margin-right: 0.5vw;
+   margin-top: 0px;
+}
+
+#three h2{
+  color: #F78154;
+  font-size: 3vw;
+}
+
+
+#mybutton{
+  background-color: #FFBC42;
+  font-family: Staatliches;
+  font-size: 30px;
+  color: white;
+  width: 30vw;
+  height: 10vh;
+  margin: 5px;
+  padding: 7px;
+}
+
+#mybutton2{
+  background-color: #FFBC42;
+  font-family: Staatliches;
+  font-size: 30px;
+  color: white;
+  width: 30vw;
+  height: 10vh;
+  margin: 5px;
+  padding: 7px;
+}
+
+
+#mybutton:hover{
+  border: solid white 3px;
+  border-radius: 70%;
+  color: white;
+}
+
+#mybutton2:hover{
+  border: solid white 3px;
+  border-radius: 70%;
+  color: white;
+}
+
+a:link{
+  color:#F2C14E;
+}
+
+a:active{
+  color:#F78154;
+}
+
+a:hover{
+  font-size: 150%;
+  color: #F2C14E;
+}
