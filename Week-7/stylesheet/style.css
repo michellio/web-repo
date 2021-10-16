@@ -1,0 +1,29 @@
+h2{
+  color:white;
+  font-family: monospace;
+}
+
+section{
+  background-color: black;
+  margin: 30vh 20vw;
+  padding: 20vh 20vw;
+}
+
+button{
+  border-radius: 8px;
+  padding: 1vh 3vw;
+  margin-top:1vh;
+  font-family: Bebas;
+  position: relative;
+  font-weight: bold;
+  background-color: #1F51FF;
+  color: white;
+}
+
+button:hover{
+  border: yellow solid 2px;
+}
+
+button:active{
+  color: yellow;
+}

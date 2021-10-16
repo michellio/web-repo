@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Magic 8 Ball</title>
+  <link rel="stylesheet" href="stylesheet/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue">
+
+</head>
+<body>
+  <section id="sez">
+    <h2 id="qtext">Click for a life lesson</h2>
+    <button id="qbutton">Ask a yes or no question </button>
+  </section>
+
+<script>
+  const quotes = ["It is certain","Reply hazy, try again", "As I see it, yes.", "My sources say no", "Don't count on it", "cannot predict now."," Most likely.","Very Doubtful"];
+  quoteCount = 0;
+  document.getElementById('qbutton').addEventListener("click", newQuote);
+  function newQuote(){
+    document.getElementById("qtext").innerHTML = quotes[quoteCount];
+    alert("Was your answer what you want?");
+    if(quoteCount>=(quotes.length-1)){
+      quoteCount = 0;
+    }else{
+      quoteCount +=1;
+    }
+  }
+
+</script>
+
+</body>
+
+</html>
