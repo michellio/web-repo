@@ -1,12 +1,14 @@
 h2{
   color:white;
   font-family: monospace;
+  position: relative;
 }
 
 section{
   background-color: black;
   margin: 30vh 20vw;
   padding: 20vh 20vw;
+  border-radius: 100%;
 }
 
 button{
