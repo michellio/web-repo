@@ -1,0 +1,35 @@
+h3{
+  font-family: Be Vietnam;
+  position: relative;
+  top: 360px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: lighter;
+}
+
+h5{
+  font-family: Be Vietnam;
+  position: relative;
+  top: 400px;
+  text-align: center;
+  font-size: 29px;
+}
+
+#feelings{
+  position: relative;
+  top: 380px;
+  align-items: center;
+  left:484px;
+  width: 450px;
+  height: 50px;
+}
+
+#clock{
+  font-family: Gemunu;
+  font-weight: normal;
+  font-size: 50px;
+  position: relative;
+  top: 350px;
+  left: 300px;
+
+}

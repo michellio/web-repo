@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Take Time For Yourself</title>
+    <link rel="stylesheet" href="stylesheet/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gemunu+Libre">
+  </head>
+  <body style="background: url(assets/intro.jpg); background-size: 100%">
+    <section id="hero">
+      <span id="clock"></span>.
+      <h3>Hi Michelle</h3>
+
+      <label for="feelings"><h5>How are you feeling right now?</h5></label>
+      <input type="text" id="feelings" name="feelings"><br>
+
+
+    </section>
+
+    <script type="text/javascript">
+    var clockElement = document.getElementById("clock");
+
+    function clock() {
+      clockElement.textContent = new Date().toString();
+    }
+
+    setInterval(clock,1000);
+    </script>
+
+  </body>
+</html>
