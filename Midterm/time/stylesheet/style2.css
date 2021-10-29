@@ -32,10 +32,6 @@ a:active{
   color:#E9D758;
 }
 
-a:visited{
-  color: #CED2D1;
-}
-
 button{
   color: white;
   background: rgba(255, 255, 255, 0.1);
