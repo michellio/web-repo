@@ -1,0 +1,76 @@
+h3{
+  font-family: Be Vietnam;
+  position: relative;
+  top: 315px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: lighter;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h5{
+  font-family: Be Vietnam;
+  font-weight: lighter;
+  position: relative;
+  top: 360px;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#feelings{
+  position: relative;
+  font-family: Be Vietnam;
+  font-weight: lighter;
+  color: #5D824C;
+  font-size: 30px;
+  text-align: center;
+  top: 380px;
+  align-items: center;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+  left:512px;
+  width: 400px;
+  height: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#time{
+  font-family: Gemunu Libre;
+  font-weight: 100;
+  font-size: 100px;
+  position: relative;
+  top: 300px;
+  left: 545px;
+  margin: 0px, 0px, 0px, 0px;
+  padding: 0px, 0px, 0px, 0px;
+
+}
+
+#submit{
+  width: 125px;
+  height: 40px;
+  position: relative;
+  background: rgba(255,255,255,0.4);
+  border: none;
+  align-items: center;
+  left: 650px;
+  top: 400px;
+  font-family: Be Vietnam;
+  font-size: 14px;
+}
+
+#submit:hover{
+  background-color: #5D824C;
+  opacity: 0.4;
+}
+
+#submit:active{
+  background-color: #5D824C;
+  opacity: 0.9;
+  font-weight: bolder;
+}
