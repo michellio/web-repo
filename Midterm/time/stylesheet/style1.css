@@ -26,9 +26,11 @@ h4{
 
 }
 
-p{
+span{
   font-size: 14px;
   font-family: Be Vietnam;
+  text-align: center;
+  display: block;
 }
 
 button{
