@@ -1,5 +1,34 @@
+@media screen and (min-width:700px){
+  #cowimg{
+    display:block;
+  }
+  #favanimals h4{
+    font-size: 30px;
+  }
+  .column{
+    width:100%;
+  }
+}
+
+@media screen and (max-width:701px){
+  #cowimg{
+    display:none;
+  }
+  #favanimals h4{
+    font-size: 20px;
+  }
+  .column{
+    width: 100%
+  }
+}
+
 
 /*this is a comment*/
+
+
+#hero h1{
+  text-align: center
+}
 
 h1{
   font-size: 9vw;
@@ -20,13 +49,13 @@ h1{
 }
 
 h2{
-  font-size: 55px;
+  font-size: 4vw;
   font-family: sans-serif;
   color: white;
 }
 
 h3{
-  font-size: 50px;
+  font-size: 4vw;
   font-family: sans-serif;
   color: #A2FF2C;
 }
@@ -49,7 +78,7 @@ h4{
 }
 
 h5{
-  font-size: 37px;
+  font-size: 3vw;
   font-family: Sansation;
   color: black;
   text-shadow:
@@ -74,6 +103,15 @@ p{
   font-family: Sansation;
   font-weight: lighter;
   color: white;
+}
+
+#favanimals{
+  position: relative;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 li{
@@ -126,7 +164,7 @@ a:active{
   color: yellow;
 }
 a:hover{
-  color:#FF72F1;
+  color:yellow;
   text-decoration: underline;
   text-shadow:
     0 0 1px #fff,
@@ -137,11 +175,50 @@ a:hover{
     0 0 3px #FF72F1,
     0 0 3px #FF72F1,
     0 0 3px #FF72F1;
+}
+.center{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,500px);
+  justify-content: center;
+  align-content: center;
+  width: 30%;
+  margin-bottom: 15px;
+}
 
+.center1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
 }
 
 img{
-  width: 25vw;
-  margin: 20px;
+  width:  100px;
+  height: 200px;
+  object-fit: cover;
+}
+
+nav{
+  display:flex;
+  width: 50vw;
+  justify-content: right;
+  flex-wrap: wrap;
+  margin: 30px auto 30px calc(100% - 27vw);
+}
+
+nav a{
+  color: yellow;
+  font-family: Sansation;
+  font-size: 1.5vw;
+  font-weight: lighter;
+  margin-left: 30px;
+  text-decoration: none;
 }
