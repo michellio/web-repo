@@ -1,0 +1,228 @@
+
+@media (max-aspect-ratio: 1/1){
+  li{
+    height: 30vh;
+  }
+}
+
+
+.Header{
+  width: 13vw;
+  font-family: Mukta;
+  color: white;
+  position: relative;
+  top: 20px;
+  left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Header h4{
+  font-size: 1.5vw;
+}
+
+.HEAD{
+  font-size: 2vw;
+  font-weight: lighter;
+}
+
+.rainbow:hover {
+  background-image: linear-gradient(to left, #E5059A, #E5FF59, #8A47FB, #0067FF, #F504FD);   -webkit-background-clip: text;
+  color: transparent;
+}
+
+
+.HEAD a:hover{
+  font-size: 3vw;
+}
+
+.BIO{
+  font-family: Lora;
+  font-size: 0.9vw;
+  color: #CCCCCC;
+  top:200px;
+}
+
+a{
+  color: white;
+  outline: none;
+  text-decoration: none;
+}
+
+a:hover{
+  font-size: 2vw;
+}
+
+.INSPIR a:hover{
+  color: #8A47FB;
+}
+
+.PORT a:hover{
+  color: #E5FF59;
+}
+
+.ABOUT a:hover{
+  color: #0067FF;
+}
+
+.CONT a:hover{
+  color: #F504FD;
+}
+
+/* INSPIRATION PAGE */
+
+.container1{
+  width: 24vw;
+  height:30vh;
+  position: relative;
+  left: 280px;
+  bottom: 560px;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.container2{
+  width: 24vw;
+  height:30vh;
+  position: relative;
+  left: 600px;
+  bottom: 805px;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-left: 35px;
+}
+
+.container3{
+  width: 24vw;
+  height:30vh;
+  position: relative;
+  left: 956px;
+  bottom: 1049px;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-left: 35px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+li{
+  list-style: none;
+
+
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  vertical-align: middle;
+  margin-bottom: 25px;
+  transition: transform .01s, filter .2s ease-in-out;
+}
+
+.imgcontainer img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  vertical-align: middle;
+  margin-bottom: 25px;
+  opacity: 60%;
+  transition: transform .01s, filter .2s ease-in-out;
+}
+
+.imgcontainer img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  vertical-align: middle;
+  margin-bottom: 25px;
+  opacity: 60%;
+  transition: transform .01s, filter .2s ease-in-out;
+  filter: grayscale(100%);
+}
+
+
+.imgcontainer img:hover{
+  border-radius: 10%;
+  opacity: 100%;
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+
+
+.BIOinspo{
+  font-family: Lora;
+  color: #CCCCCC;
+  font-size: 0.9vw;
+  top:200px;
+}
+
+#rize:hover{
+  color: #8A47FB;
+}
+
+/* PORTFOLIO PAGE */
+
+.portcontainer1{
+  width: 70vw;
+  height:30vh;
+  position: relative;
+  left: 280px;
+  bottom: 600px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.midterm img:hover{
+  opacity: 40%;
+  border-radius: 10%;
+}
+
+.portimg h2{
+  color:white;
+  font-family: Mukta;
+  text-align: center;
+  font-size: 2vw;
+  display: block;
+}
+
+.portimg a:HOVER{
+  color:#E5FF59;
+  font-family: Mukta;
+  text-align: center;
+  font-size: 2vw;
+}
+
+
+.midterm:hover .centertext {
+  opacity: 1;
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+
+.week6:hover .centertext {
+  opacity: 1;
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+
+
+.centertext{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  opacity: 0;
+}

@@ -44,15 +44,19 @@
   console.log("javascript working");
   document.getElementById("mybutton").addEventListener("click", function(){alert("Animals were the first passangers on a hot air balloon! A sheep 🐑, duck 🦆, and a rooster🐓." )});
   document.getElementById("mybutton2").addEventListener("click", buttonClicked);
-  document.getElementById('hero').addEventListener("click", heroClicked)
-  document.getElementById("mybutton2").addEventListener("click", buttonOne)
+  document.getElementById('herotext').onmouseover =function () {heroClicked()};
+  document.getElementById('herotext').onmouseout =function(){heroClick()};
+  document.getElementById("mybutton2").addEventListener("click", buttonOne);
 
   function buttonClicked(){
     alert("When was the first hot air balloon invented? (answer is highlighted on page!");
   }
   function heroClicked(){
     document.getElementById("herotext").innerHTML = "WHERE WILL YOU GO?";
+  }
 
+  function heroClick(){
+    document.getElementById("herotext").innerHTML = "YAY";
   }
 
   function buttonOne(){

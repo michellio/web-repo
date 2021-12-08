@@ -1,0 +1,107 @@
+
+@media (max-aspect-ratio: 1/1){
+  li{
+    height: 30vh;
+  }
+}
+
+
+.Header{
+  width: 13vw;
+  font-family: Mukta;
+  color: white;
+  position: relative;
+  top: 20px;
+  left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+.rainbow:hover {
+  background-image: linear-gradient(to left, #E5059A, #E5FF59, #8A47FB, #0067FF, #F504FD,#17F8E2);   -webkit-background-clip: text;
+  color: transparent;
+}
+
+.Header h4{
+  font-size: 1.5vw;
+}
+
+.HEAD{
+  font-size: 2vw;
+  font-weight: lighter;
+}
+
+
+.HEAD a:hover{
+  font-size: 3vw;
+}
+
+.BIO{
+  font-size: 0.9vw;
+  color: #223843;
+  top:200px;
+}
+
+a{
+  color: white;
+  outline: none;
+  text-decoration: none;
+}
+
+a:hover{
+  font-size: 2vw;
+}
+
+.INSPIR a:hover{
+  color: #8A47FB;
+}
+
+.PORT a:hover{
+  color: #4AAD52;
+}
+
+.ABOUT a:hover{
+  color: #0067FF;
+}
+
+
+.BIO p{
+  font-size: 1.2vw;
+  color: gray;
+  font-family: Roboto;
+}
+
+#more{
+  color: pink;
+}
+
+.intro,
+.intro1,
+.intro2 {
+    max-width: 32em;
+    left:330px;
+    margin-right: auto;
+    color: white;
+    bottom: 500px;
+    justify-content: center;
+    position: relative;
+    background-color: yellow;
+}
+
+.intro > p,
+.intro2 > p {
+    /* Typography Declarations */
+    font-weight: 300;
+    font-size: 1vw;
+    letter-spacing: 0.05em;
+}
+
+.intro2 > h2 {
+    font-family: Lora;
+    color: white;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
