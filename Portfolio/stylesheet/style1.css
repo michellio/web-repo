@@ -7,11 +7,11 @@
 
 
 .Header{
-  width: 13vw;
+  width: 15vw;
   font-family: Mukta;
   color: white;
   position: relative;
-  top: 20px;
+  top: 12px;
   left: 15px;
   display: flex;
   flex-direction: column;
@@ -19,24 +19,23 @@
 }
 
 
-
 .rainbow:hover {
-  background-image: linear-gradient(to left, #E5059A, #E5FF59, #8A47FB, #0067FF, #F504FD,#17F8E2);   -webkit-background-clip: text;
+  background-image: linear-gradient(to left, #E5059A, #E5FF59, #F504FD,#17F8E2);   -webkit-background-clip: text;
   color: transparent;
 }
 
 .Header h4{
-  font-size: 1.5vw;
+  font-size: 1vw;
 }
 
 .HEAD{
-  font-size: 2vw;
+  font-size: 1vw;
   font-weight: lighter;
 }
 
 
 .HEAD a:hover{
-  font-size: 3vw;
+  font-size: 1.5vw;
 }
 
 .BIO{
@@ -74,34 +73,77 @@ a:hover{
   font-family: Roboto;
 }
 
-#more{
+#butt{
+  width: 10%;
+  top: 100px;
+  left: 50px;
+  position:relative;
+  background-color: transparent;
+  border: none;
+}
+
+#butt1{
+  width: 10%;
+  top: 100px;
+  position:relative;
+  background-color: transparent;
+  border: none;
+
+}
+
+#butt2{
+  width: 10%;
+  top: 100px;
+  position:relative;
+  right: 50px;
+  background-color: transparent;
+  border: none;
+
+}
+
+
+.button img{
+  height: 55px;
+}
+
+
+
+h1{
   color: pink;
 }
 
-.intro,
-.intro1,
-.intro2 {
+.intro{
     max-width: 32em;
-    left:330px;
+    left:850px;
     margin-right: auto;
+    font-family: Roboto;
     color: white;
-    bottom: 500px;
+    top: 50px;
     justify-content: center;
     position: relative;
-    background-color: yellow;
 }
+
+.intro2 {
+    max-width: 32em;
+    left:50px;
+    margin-right: auto;
+    font-family: Roboto;
+    color: white;
+    top: 20px;
+    justify-content: center;
+    position: relative;
+}
+
 
 .intro > p,
 .intro2 > p {
-    /* Typography Declarations */
     font-weight: 300;
-    font-size: 1vw;
+    font-size: 1.5vw;
     letter-spacing: 0.05em;
 }
 
 .intro2 > h2 {
     font-family: Lora;
-    color: white;
-    font-size: 1.5vw;
+    font-size: 2vw;
     font-weight: bold;
 }
