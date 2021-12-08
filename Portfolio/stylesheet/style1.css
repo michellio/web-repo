@@ -129,7 +129,7 @@ h1{
     margin-right: auto;
     font-family: Roboto;
     color: white;
-    top: 20px;
+    bottom: 10px;
     justify-content: center;
     position: relative;
 }
