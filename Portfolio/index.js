@@ -1,3 +1,5 @@
+// Slideshow help found via https://www.youtube.com/watch?v=KcdBOoK3Pfw&t=71s
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
