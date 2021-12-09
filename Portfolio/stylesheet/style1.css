@@ -72,6 +72,9 @@ a:hover{
   font-family: Roboto;
 }
 
+
+
+
 #butt{
   width: 10%;
   top: 100px;
@@ -103,6 +106,10 @@ a:hover{
 
 .button img{
   height: 55px;
+}
+
+.button img:hover{
+  filter: invert();
 }
 
 

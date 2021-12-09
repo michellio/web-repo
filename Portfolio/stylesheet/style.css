@@ -72,6 +72,7 @@ a:hover{
 
 /* INSPIRATION PAGE */
 
+
 .container1{
   width: 24vw;
   height:30vh;
@@ -122,7 +123,7 @@ img {
   object-fit: cover;
   vertical-align: middle;
   margin-bottom: 25px;
-  transition: transform .01s, filter .2s ease-in-out;
+  transition: transform .001s, filter .1s ease-in-out;
 }
 
 .imgcontainer img {
@@ -132,7 +133,7 @@ img {
   vertical-align: middle;
   margin-bottom: 25px;
   opacity: 60%;
-  transition: transform .01s, filter .2s ease-in-out;
+  transition: transform .001s, filter .1s ease-in-out;
 }
 
 .imgcontainer img {
@@ -142,7 +143,7 @@ img {
   vertical-align: middle;
   margin-bottom: 25px;
   opacity: 60%;
-  transition: transform .01s, filter .2s ease-in-out;
+  transition: transform .001s, filter .1s ease-in-out;
   filter: grayscale(100%);
 }
 
